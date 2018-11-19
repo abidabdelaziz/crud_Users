@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(197, 169, 45)
+}
+
+.col{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.AddUser{
+  width:65%;
+}
+
+.btn{
+  background-color: rgb(197, 169, 45);
+}
+
+.UserCollection{
+  border: none;
+  width: 100% !important;
+  
+}
+
+.UsersRow{
+  width:65%;
+}
+
+.collapsible-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* .ModButton{
+  width:150px;
+} */
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

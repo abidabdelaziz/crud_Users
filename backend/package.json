@@ -1,0 +1,14 @@
+{
+  "name": "crud_Users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/abidabdelaziz/crud_Users.git",
+  "author": "abidabdelaziz <abid.m.abdelaziz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6"
+  }
+}
