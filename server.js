@@ -11,7 +11,7 @@ const PORT= process.env.PORT || 3001;
 app.use(bodyParser.urlencoded({extended : true}))
 app.use(bodyParser.json())
 
-mongoose.connect("mongodb://localhost/users",{ useNewUrlParser: true })
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/users",{ useNewUrlParser: true })
 
 app.use(express.static("./client/build"));
 
