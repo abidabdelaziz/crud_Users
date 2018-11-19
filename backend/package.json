@@ -2,9 +2,16 @@
   "name": "crud_Users",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "install": "cd pogopost && yarn install",
+    "build": "cd pogopost && yarn build",
+    "heroku-postbuild": "yarn run build"
+  },
   "repository": "https://github.com/abidabdelaziz/crud_Users.git",
   "author": "abidabdelaziz <abid.m.abdelaziz@gmail.com>",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
