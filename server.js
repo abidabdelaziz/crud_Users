@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 mongoose.connect("mongodb://localhost/users",{ useNewUrlParser: true })
 
-app.use(express.static("../client/build"));
+app.use(express.static("./client/build"));
 
 app.get("/all/users",(req,res) => {  
 
@@ -54,7 +54,7 @@ app.post("/delete/user",(req,res)=>{
 
 //catch all
 app.use(function(req,res){
-    res.sendFile(path.join(__dirname,'../client', '/build.index.html'))
+    res.sendFile(path.join(__dirname,'./client/build.index.html'))
 })
 
 
