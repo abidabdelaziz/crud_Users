@@ -45,7 +45,7 @@ console.log(this.props)
   }
 
   handleName = event => {
-    this.setState({"name":event.target.value})
+    this.setState({"user":event.target.value})
    }
 
   handleEmail = event => {
